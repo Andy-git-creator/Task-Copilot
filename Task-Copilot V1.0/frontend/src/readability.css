@@ -1,0 +1,66 @@
+/* Readability pass: keep the card proportions while raising the text baseline. */
+.brand strong{font-size:20px}.brand small,.side-label{font-size:14px}.nav-item{font-size:16px}.crumb,.date-chip{font-size:15px}
+.page-heading h1{font-size:32px}.eyebrow{font-size:13px}.heading-sub{font-size:15px}.primary-btn,.secondary-btn{font-size:15px}
+.hero h2{font-size:27px}.hero p,.hero button,.hero-kicker{font-size:14px}.clock-ring small{font-size:14px}
+.stat-label,.stat-card p{font-size:15px}.stat-value small{font-size:15px}.panel-head h3{font-size:17px}.panel-head p,.text-link{font-size:14px}
+.task-title{font-size:15px}.task-meta,.priority,.task-menu button{font-size:13px}.due-card strong{font-size:16px}.due-card p,.mini-panel p,.bottom-note{font-size:14px}
+.filter-tabs button,.range-tabs button,.search-box input,.range-bar>span,.timeline-task strong,.timeline-task>span,.timeline-aside>p,.category-row strong{font-size:14px}
+.timeline-task p,.timeline-date small,.category-row span,.chart-col small{font-size:13px}.timeline-date strong{font-size:15px}
+.modal label,.modal input,.modal textarea,.modal select,.feature-form label,.feature-form input,.feature-form textarea,.feature-form select{font-size:15px}
+.form-error,.feature-form-note,.feature-small-empty{font-size:14px}
+.schedule-controls strong{font-size:16px}.schedule-current,.week-chip,.schedule-day-head strong,.schedule-day-head span{font-size:14px}
+.course-slot strong,.manage-row strong{font-size:14px}.course-slot span,.course-slot small,.manage-row p,.no-course,.exception-tag{font-size:13px}
+.project-description,.project-progress-head,.project-card-foot,.project-tasks>div,.focus-intro p,.focus-select,.focus-hint,.focus-history>div,.focus-history p,.setting-row p,.settings-help p{font-size:14px}
+.project-card-foot button,.focus-intro span,.focus-dial span,.setting-row strong,.setting-row select,.saved-note{font-size:15px}
+
+.profile-trigger{border:0;background:transparent;display:flex;align-items:center;gap:9px;color:#526771;border-radius:9px;padding:4px 7px}.profile-trigger:hover{background:#f1f5f5}.profile-trigger img,.profile-trigger>span{width:34px;height:34px;border-radius:50%;object-fit:cover}.profile-trigger>span{display:grid;place-items:center;background:#dceae8;color:#356c75;font-size:15px;font-weight:700}.profile-trigger strong{font-size:15px;max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.profile-modal form{padding:22px 26px 25px}.avatar-editor{display:flex;align-items:center;gap:18px;background:#f7f9f9;border-radius:12px;padding:16px;margin-bottom:20px}.avatar-preview{width:76px;height:76px;border-radius:22px;background:#e3efed;color:#4a7d83;display:grid;place-items:center;overflow:hidden;flex:none}.avatar-preview img{width:100%;height:100%;object-fit:cover}.avatar-upload{display:inline-flex!important;width:auto!important;background:#3d7980;color:#fff!important;border-radius:7px;padding:8px 12px;margin:0!important;cursor:pointer}.avatar-upload input{display:none!important}.avatar-remove{border:0;background:transparent;color:#a66d67;font-size:14px;margin-left:7px}.avatar-editor p{font-size:13px;color:#9ba9af;margin:8px 0 0}
+
+.rules-heading{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #edf1f2;padding-top:15px;margin-bottom:10px}.rules-heading strong{font-size:16px}.rules-heading p{font-size:14px;color:#99a8ae;margin:4px 0 0}.rules-heading button,.rule-editor-head button{border:0;background:#eaf3f2;color:#477f85;border-radius:7px;padding:7px 9px;display:flex;align-items:center;gap:5px;font-size:14px}.rules-editor{display:grid;gap:10px;margin-bottom:17px}.rule-editor{border:1px solid #e5ebec;background:#fafcfc;border-radius:10px;padding:12px}.rule-editor-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.rule-editor-head strong{font-size:15px}.rule-editor-head button{background:transparent;color:#b3736d}.rule-editor .form-grid label{margin-bottom:10px}
+
+.sidebar>.side-label{margin-top:6px}.brand{padding-bottom:34px}
+.color-options{flex-wrap:wrap;gap:12px;padding:4px 0}
+.color-options button{width:28px;height:28px;flex:none;cursor:pointer}
+.manage-row>.exception-actions{display:flex;gap:8px;flex:0 0 auto}
+.exception-actions button{border:1px solid #e1e8ea;border-radius:7px;padding:6px 10px;font-size:14px;cursor:pointer;white-space:nowrap}
+.exception-cancel{background:#fff;color:#607781}.exception-cancel:hover{background:#f1f5f5}
+.exception-cancel:disabled{opacity:.55;cursor:default}
+.exception-delete{background:#fff1f0;color:#bf4949;border-color:#f0d2cf!important}.exception-delete:hover{background:#ffe2df}
+@media(max-width:700px){.profile-trigger strong{display:none}.page-heading h1{font-size:27px}}
+
+/* Larger supporting text across course, task and project modules. */
+.course-slot{padding:11px 9px;gap:6px}.course-slot em{font-size:12px}
+.task-row{padding-top:15px;padding-bottom:15px}.task-title,.course-slot strong{line-height:1.5}.task-meta,.manage-row p{line-height:1.6}
+.subtasks-head strong,.subtask-line>span{font-size:14px}.subtasks-head span{font-size:13px}
+.project-name h3,.modal-header h2{font-size:20px}.project-name>span{font-size:13px}
+.empty-state strong,.feature-empty h3{font-size:17px}.empty-state p,.empty-state button,.feature-empty p{font-size:14px}
+.schedule-day-head strong,.schedule-day-head span{font-size:17px}
+.schedule-grid .course-slot strong{font-size:16px;font-weight:700;line-height:1.4;display:block;width:100%;min-width:0;white-space:normal;overflow-wrap:anywhere;word-break:normal}
+.schedule-grid .course-slot span,.schedule-grid .course-slot small{font-size:14px;line-height:1.4;overflow-wrap:anywhere}
+.schedule-grid .course-slot .course-details{display:block;width:100%;min-width:0;white-space:nowrap;overflow-wrap:normal;line-height:1.5}
+.schedule-grid .course-slot{height:auto;min-height:0;padding:10px 9px;gap:5px;margin-bottom:9px}
+.course-slot em,.no-course{font-size:15px}
+.schedule-toolbar .schedule-controls strong,.schedule-toolbar .schedule-current,.schedule-toolbar .week-chip,.schedule-toolbar .range-tabs button{font-size:18px}
+.schedule-grid .schedule-day-body{min-height:440px;padding:10px}
+.schedule-lower .panel-head h3{font-size:17px}
+.schedule-lower .panel-head p,.schedule-lower .text-link{font-size:14px}
+.schedule-lower .manage-row strong{font-size:15px;font-weight:600}
+.schedule-lower .manage-row .course-teacher{font-size:inherit;font-weight:400;color:#73868e}
+.schedule-lower .manage-row p{font-size:14px;line-height:1.5}
+.schedule-lower .exception-tag,.schedule-lower .exception-actions button,.schedule-lower .feature-small-empty{font-size:14px}
+.hero{min-height:146px;padding:12px 32px}
+.hero-kicker{font-size:11px;letter-spacing:1.5px}
+.hero h2{font-size:18px;line-height:1.55;margin:0 0 10px}
+.hero p{font-size:12px;margin:0 0 12px;line-height:1.6}
+.hero button{font-size:12px;padding:6px 11px}
+.hero-clock{width:160px;height:120px}
+.clock-ring{width:100px;height:100px;box-shadow:0 0 0 9px #ffffff0b,0 0 0 18px #ffffff09}
+.clock-ring span{font-size:26px}.clock-ring small{font-size:12px}
+.shell>.sidebar{width:200px;flex-basis:200px;padding-left:12px;padding-right:12px}
+.sidebar .brand strong{font-size:18px}
+.sidebar .brand{padding:0 0 28px;gap:9px}
+.sidebar .brand-mark{flex-shrink:0}
+.sidebar .brand strong{white-space:nowrap;letter-spacing:-.5px}
+.sidebar-bottom .nav-item{font-size:17px}
+.settings-layout .settings-head h3{font-size:18px}
+.settings-layout .settings-head p,.settings-layout .setting-row p,.settings-layout .settings-help p{font-size:15px;line-height:1.6}
+.settings-layout .setting-row strong,.settings-layout .setting-row select{font-size:16px}
