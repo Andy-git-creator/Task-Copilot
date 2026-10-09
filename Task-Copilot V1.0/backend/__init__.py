@@ -1,1 +1,0 @@
-"""Task Copilot local backend."""
