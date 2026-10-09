@@ -1,10 +1,7 @@
 # Task Copilot
-### 把计划理清，把生活记住。
 ### Clear your plans. Capture your days.
 
-课表、作业、项目、截止日期……需要记住的事情很多，但一天不必因此变得拥挤。
-
-**Task Copilot** 为学习、工作与生活留出各自的空间。打开主页，看看今天要做什么、下一节课在哪里、哪个截止日期正在临近，再从一件小事开始，按自己的节奏向前。
+**Task Copilot** 为学习、工作与生活留出各自的空间。打开主页，看看今天要做什么、下一节课在哪里、哪个截止日期正在临近。
 
 忙碌之外，也留一点时间给自己：写一篇日记，记下运动后的畅快，收藏一杯喜欢的咖啡。值得记录的，不只有完成了多少任务，还有你怎样度过这一天。
 
@@ -12,13 +9,9 @@
 
 ---
 
-Classes, assignments, projects, deadlines—there’s plenty to keep track of. Your day doesn’t have to feel crowded by it all.
-
 **Task Copilot** gives study, work, and everyday life their own space. Open your home page to see what’s ahead, where your next class is, and which deadline is approaching. Then start with one small step and move at your own pace.
 
 Leave some room for yourself, too. Write a diary entry, capture the feeling after a workout, or remember a coffee you loved. A day is worth recording for more than the tasks you finished.
-
-**Make room for what matters. Remember the moments in between.**
 
 ---
 
