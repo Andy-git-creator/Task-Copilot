@@ -5,8 +5,6 @@
 
 忙碌之外，也留一点时间给自己：写一篇日记，记下运动后的畅快，收藏一杯喜欢的咖啡。值得记录的，不只有完成了多少任务，还有你怎样度过这一天。
 
-**让重要的事有安排，让平凡的日子有记忆。**
-
 ---
 
 **Task Copilot** gives study, work, and everyday life their own space. Open your home page to see what’s ahead, where your next class is, and which deadline is approaching. Then start with one small step and move at your own pace.
